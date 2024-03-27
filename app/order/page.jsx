@@ -30,11 +30,12 @@ const OrderPage = () => {
       </div>
       <div className="w-full max-w-4xl mt-1">
         <Image
-          src="/assets/images/back_cover.png"
+          src="/images/back_cover.png"
           alt="Crepes"
           width={1000}
           height={1000}
-          quality={100}            
+          quality={100}  
+          loading='lazy'          
           className="rounded-md shadow-lg"
         />
       </div>
